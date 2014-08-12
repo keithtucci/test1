@@ -10,7 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Globals.Map = require('ti.map');;;;
+Alloy.Globals.Map = require('ti.map');;;;//11111
 
 if (Ti.Geolocation.locationServicesEnabled) {
     Ti.Geolocation.purpose = 'Get Current Location';
