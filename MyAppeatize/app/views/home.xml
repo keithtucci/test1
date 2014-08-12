@@ -1,0 +1,47 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" visible="true">
+			<LeftNavButton>
+				<!-- <Button id="buttonAccount" class="buttonAccount" onClick="openMyAccount" /> -->
+			</LeftNavButton>
+			<View id="viewData" class="viewData" visible="true" >
+				<View id="viewHeader">
+					<ImageView id="imageviewBanner" />
+					<View id="viewNavBar" class="viewNavBar" />
+					<View id="viewNavBar2" class="viewNavBar2" />
+					<View id="viewOverlayBanner" />
+					<Label id="labelLocationName" class="labelOverlay"/>
+					<ImageView id="imageviewNavBarTitle" />
+					<!-- <Button id="buttonAccount" class="buttonAccount" onClick="openMyAccount" /> -->
+					<View id="viewActionBarTitle">
+						<View class="viewActionBarFill" />
+						<Label id="labelActionBarTitle" />
+						<View id="viewHLineActionBarTitle" class="viewHLine" />
+					</View>
+					<View id="viewActionBar">
+						<View class="viewActionBarFill" />
+						<View id="viewButtonContainer" >
+							<View class="viewActionButton">
+								<Button id="buttonMenuAction" class="buttonHomeAction" onClick="openMenu" />
+								<View class="viewVLine" />
+							</View>
+							<View class="viewActionButton">
+								<Button id="buttonCompanyAction" class="buttonHomeAction" onClick="openCompany" />
+								<View class="viewVLine" />
+							</View>
+							<View class="viewActionButton">
+								<Button id="buttonCampaignAction" class="buttonHomeAction" onClick="openCampaigns" />
+								<View class="viewVLine" />
+							</View>							
+							<View class="viewActionButton">
+								<Button id="buttonAccountAction" class="buttonHomeAction"  onClick="openAccount" />
+							</View>
+						</View>
+						<View id="viewHLineBottom" class="viewHLine" />
+					</View>
+				</View>
+				<TableView id="tableviewInfo" class="tableviewplain" />
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

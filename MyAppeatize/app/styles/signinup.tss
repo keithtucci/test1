@@ -1,0 +1,65 @@
+"#win": {},
+"#win2": {},
+"#viewData": {
+	layout: "absolute"
+},
+".tableviewForm": {
+	//top: 14,
+	//top: "-36",
+	height: 87,
+	scrollable: false,
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
+},
+".textfieldEmail": {
+	hintText: "Email",
+	maxLength: 50,
+	keyboardType: Titanium.UI.KEYBOARD_EMAIL,
+	autocorrect: false,
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	returnKeyType: Ti.UI.RETURNKEY_NEXT
+},
+".textfieldFirstName": {
+	hintText: "First Name",
+	maxLength: 30,
+	keyboardType: Titanium.UI.DEFAULT,
+	autocorrect: false,
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	returnKeyType: Ti.UI.RETURNKEY_NEXT
+},
+".textfieldLastName": {
+	hintText: "Last Name",
+	maxLength: 30,
+	keyboardType: Titanium.UI.DEFAULT,
+	autocorrect: false,
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+},
+".buttonLogIn": {
+	right: 0,
+	title: "Don't have an account?",
+	visible: false
+},
+".buttonSignUp": {
+	right: 0,
+	title: "Already have an account?",
+	visible: false
+},
+".buttonForgotPassword": {
+	title: "Forgot Password",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".viewSignInUpButtons": {
+	top: 0,
+	height: 50,
+	left: 15,
+	right: 15
+},
+".buttonSignInUp": {
+	tintColor: "#666666",
+	font: {
+		fontSize: 14
+	}	
+},
+"#viewForgotPassword" : {
+	visible : false
+}

@@ -1,0 +1,39 @@
+<Alloy>
+	<NavigationWindow id="win" module="xp.ui">
+		<Window id="win2" >
+			<LeftNavButton platform="ios">
+				<Button id="buttonDown" class="buttonDown" onClick="closeWin"/>
+			</LeftNavButton>
+			<View id="viewData" class="viewData" >
+				<View class="viewSignInUp">
+					<View class="viewSignInUpButtons">
+						<Button id="buttonSignUp" class="buttonSignUp buttonSignInUp" onClick="showLogIn" />
+						<Button id="buttonLogIn" class="buttonLogIn buttonSignInUp" onClick="showSignUp" />
+					</View>
+					<View class="viewHLine" />
+					<TableView class="tableviewplain tableviewForm">
+						<TableViewRow class="tableviewrowForm">
+							<TextField id="textfieldEmail" class="textfieldForm textfieldEmail" onReturn="textfieldEmail_return" />
+						</TableViewRow>
+						<TableViewRow class="tableviewrowForm">
+							<TextField id="textfieldPassword" class="textfieldForm textfieldPassword" onReturn="textfieldPassword_return" />
+						</TableViewRow>
+					</TableView>
+					<View class="viewHLine" />
+					<View class="viewActionButton">
+						<Button id="buttonSignInUpAction" class="buttonSignInUpAction" onClick="doValidate" />
+					</View>
+					<View id="viewForgotPassword" class="viewSignInUpButtons">
+						<Button id="buttonForgotPassword" class="buttonForgotPassword buttonSignInUp" onClick="doForgotPassword"/>
+					</View>
+				</View>
+			</View>
+			<View id="viewLoading" class="viewLoading">
+				<View id="viewLoadingContainer" class="viewLoadingContainer">
+					<ActivityIndicator id="activityindicatorLoading" />
+					<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+				</View>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

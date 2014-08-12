@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" >
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="doSave"/>
+		</LeftNavButton>
+		<View id="viewData">
+			<TableView id="tableview" class="tableviewgrouped" />
+		</View>
+	</Window>
+</Alloy>

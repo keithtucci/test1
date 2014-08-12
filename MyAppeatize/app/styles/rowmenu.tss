@@ -1,0 +1,29 @@
+"#row": {
+	backgroundColor: "#FFFFFF",
+	height: Ti.UI.SIZE
+},
+".viewRowMenuMain": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "absolute",
+	top: 0,
+	bottom: 0,
+	left: 10,
+	right: 10
+},
+"#labelMenuVal": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	left: 0,
+	right: 70
+},
+"#labelPrice": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height: Ti.UI.SIZE,
+	right: 0,
+	font: {
+		fontSize: 16
+	},
+	color: "#40AB2B"
+}

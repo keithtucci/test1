@@ -1,0 +1,42 @@
+<Alloy>
+	<Window id="win" visible="true">
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="closeWin"/>
+		</LeftNavButton>
+		<RightNavButton>
+			<Button id="buttonPrint" class="buttonPrint" />
+		</RightNavButton>
+		<OptionDialog id="dialogDeleteActions" />
+		<View id="viewData" class="viewData" visible="false" >
+			<!-- <View class="viewHeader">
+			<Button id="buttonDelete" class="buttonDelete" onClick="openDialogDeleteActions" />
+			<Button id="buttonNextAction" class="buttonNextAction" onClick="doNext" />
+			<View id="viewHLine" class="viewHLine" />
+			</View> -->
+			<TableView id="tableview" class="tableviewgrouped">
+				<TableViewRow id="tableviewrowOrderData">
+					<View id="viewRowMain" class="viewRowMain" >
+						<!-- <Label id="labelDtEstComplete" class="labelRowTitle" /> -->
+						<Label id="labelOrderStatusName" class="labelRowData" />
+						<Label id="labelName" class="labelRowData" />
+						<Label id="labelDtCreated" class="labelRowData" />
+						<Button id="buttonPhone" onClick="doPhone"  />
+					</View>
+					<View id="viewAction" class="viewAction" onClick="doUpdateOrderStatus">
+						<Button id="buttonAction" class="buttonAction" />
+					</View>
+					<View id="viewHLineBottom" class="viewHLine" />
+				</TableViewRow>
+				<TableViewRow>
+					<TextArea id="textareaOrderText" class="textfieldOrderForm"  />
+				</TableViewRow>
+			</TableView>
+		</View>
+		<View id="viewLoading" class="viewLoading" visible="false">
+			<View id="viewLoadingContainer" class="viewLoadingContainer">
+				<ActivityIndicator id="activityindicatorLoading" />
+				<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

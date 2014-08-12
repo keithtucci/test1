@@ -1,0 +1,17 @@
+"#win": {
+	tabBarHidden: true
+},
+"#viewData": {
+	layout: "vertical"
+},
+"#labelNoDataMessage" : {
+	text : "Contact Appeatize to learn more about our Campaigns service."
+},
+"#tableview": {
+	//top: 0,
+	top: "-36",
+	//bottom : 44
+	height: Ti.UI.FILL,
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE,
+	//separatorColor : "#E8E8E8"
+},

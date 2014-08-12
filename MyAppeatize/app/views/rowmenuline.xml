@@ -1,0 +1,5 @@
+<Alloy>
+	<TableViewRow id="row" >
+			<View id="viewLine" class="viewLine viewLineRow" />
+	</TableViewRow>
+</Alloy>

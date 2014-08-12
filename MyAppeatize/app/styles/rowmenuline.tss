@@ -1,0 +1,8 @@
+"#row" : {
+	height : 11
+	//backgroundColor : "#cccccc"
+},
+"#viewLine" : {
+	bottom : 5,
+	top : 5
+}

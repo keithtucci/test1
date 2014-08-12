@@ -1,0 +1,31 @@
+"#tab": {
+	title: "Menus",
+	icon: "img/menu.png",
+	activeIcon: "img/menu-fill.png"
+},
+"#win": {
+	title: "Menu"
+},
+"#viewData": {
+	layout: "horizontal"
+},
+".buttonMove": {
+	right: 15
+},
+".buttonEdit": {
+	right: 15
+},
+
+".buttonAdd": {
+	left: 15
+},
+"#tableviewMenuList" : {
+	top : "-36",
+	//allowsSelection : true,
+	//height : Ti.UI.SIZE
+	//separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+"#tableviewMenu" : {
+	//height : Ti.UI.SIZE
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}

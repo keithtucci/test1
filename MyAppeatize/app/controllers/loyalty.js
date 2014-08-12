@@ -1,0 +1,1 @@
+$.viewNoData.visible = true;

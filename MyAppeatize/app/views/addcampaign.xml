@@ -1,0 +1,55 @@
+<Alloy>
+	<Window id="win" >
+		<OptionDialog id="dialogActions" />
+		<AlertDialog id="alertDialog" title="" />
+		<LeftNavButton>
+			<Button id="buttonDown" class="buttonDown" onClick="closeWin"/>
+		</LeftNavButton>
+		<RightNavButton>
+			<Button id="buttonSave" class="buttonSave" onClick="validateSave"/>
+		</RightNavButton>
+		<View id="viewData" class="viewData" >
+			<TableView id="tableview" class="tableviewgrouped" >
+				<TableViewRow id="tableviewrowPickerTime" class="tableviewrowDefault">
+					<View id="viewPickerTime">
+						<Picker id="pickerCampaignTime" type="Titanium.UI.PICKER_TYPE_TIME" />
+						<View id="viewHLinePickerTime" class="viewHLine" />
+					</View>
+				</TableViewRow>
+				<TableViewSection>
+					<TableViewRow class="tableviewrowDefault">
+						<Label id="labelCampaignName" class="labelRowLabel" />
+						<TextField id="textfieldCampaignName" class="textfieldFormField" />
+					</TableViewRow>
+					<TableViewRow class="tableviewrowDefault">
+						<Label id="labelStartDate" class="labelRowLabel" />
+						<Label id="labelStartDateVal" class="labelRowVal" />
+						<ImageView id="imageviewRightArrow" class="imageviewRightArrow" />
+					</TableViewRow>
+					<TableViewRow class="tableviewrowDefault" onClick="openRepeat">
+						<Label id="labelRepeat" class="labelRowLabel" />
+						<Label id="labelRepeatVal" class="labelRowVal" />
+						<ImageView id="imageviewRightArrow" class="imageviewRightArrow" />
+					</TableViewRow>
+					<TableViewRow class="tableviewrowDefault">
+						<Label id="labelPause" class="labelRowLabel" />
+						<Switch id="switchPause" />
+					</TableViewRow>
+				</TableViewSection>
+				<TableViewSection>
+					<TableViewRow class="tableviewrowDefault" onClick="openContent">
+						<Label id="labelContent" class="labelRowLabel" />
+						<Label id="labelContentVal" class="labelRowVal" />
+						<ImageView  id="imageviewRightArrow" class="imageviewRightArrow" />
+					</TableViewRow>
+				</TableViewSection>
+			</TableView>
+		</View>
+		<View id="viewLoading" class="viewLoading">
+			<View id="viewLoadingContainer" class="viewLoadingContainer">
+				<ActivityIndicator id="activityindicatorLoading" />
+				<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,26 @@
+<Alloy>
+	<NavigationWindow id="win" platform="ios">
+		<Window id="win2" >
+			<RightNavButton>
+				<Button id="buttonLogIn" class="buttonLogIn" onClick="doValidate"  />
+			</RightNavButton>
+			<AlertDialog id="alertDialog" title="" />
+			<View id="viewData" class="viewData" >
+				<TableView id="tableview" class="tableviewgrouped">
+					<TableViewRow class="tableviewrowDefault" >
+						<TextField id="textfieldUsername" class="textfieldFormField" onReturn="textfieldUsername_return" />
+					</TableViewRow>
+					<TableViewRow class="tableviewrowDefault" >
+						<TextField id="textfieldPassword" class="textfieldFormField" onReturn="textfieldPassword_return" onChange="textfieldPassword_change" />
+					</TableViewRow>
+				</TableView>
+			</View>
+			<View id="viewLoading" class="viewLoading" visible="false">
+				<View id="viewLoadingContainer" class="viewLoadingContainer">
+					<ActivityIndicator id="activityindicatorLoading" />
+					<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+				</View>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

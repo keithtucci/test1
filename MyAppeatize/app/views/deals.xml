@@ -1,0 +1,13 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" visible="true">
+			<View id="viewData" class="viewData" visible="false" ></View>
+			<View id="viewNoData" class="viewNoData">
+				<View class="viewNoDataContainer">
+					<ImageView class="imageviewDealsNoData" />
+					<Label id="labelNoDataMessage" class="labelNoDataMessage" />
+				</View>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

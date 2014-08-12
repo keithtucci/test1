@@ -1,0 +1,26 @@
+<Alloy>
+	<TableViewRow id="row" >
+		<View id="viewRowMain" class="viewRowMain"  >
+			<View id="viewLabels" >
+				<Label id="labelCampaignName" class="labelRowTitle" />
+				<Label id="labelDtEffective" class="labelRowData" />
+				<Label id="labelTimeSend" class="labelRowData" />
+				<Label id="labelRepeatText" class="labelRowData" />
+				<Label id="labelCampaignHeader" class="labelRowData" />
+			</View>
+			<View id="viewAction" class="viewAction" >
+				<View id="viewButtons">
+					<View id="viewButton" onClick="doCampaignDetails">
+						<Button id="buttonEdit" class="buttonEdit2" />
+					</View>
+					<View id="viewButton">
+						<Button id="buttonAnalytics" class="buttonAnalytics" />
+					</View>
+				</View>
+				<View id="viewVLineLeft" class="viewVLine" />
+				<View id="viewHLineMiddle" class="viewHLine" />
+			</View>
+		</View>
+		<View id="viewHLineBottom" class="viewHLine" />
+	</TableViewRow>
+</Alloy>

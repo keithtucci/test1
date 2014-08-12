@@ -1,0 +1,24 @@
+<Alloy>
+	<TableViewRow id="row" >
+		<View id="viewRowHeader">
+			<Label id="labelRowHeader" />
+			<View class="viewHLine" />
+		</View>
+		<View id="viewHRow1" class="viewHRow">
+			<View id="viewPod1" class="viewPod">
+				<View class="viewPodContainer">
+					<Label id="labelVal1" class="labelHomeVal" />
+					<Label id="labelProp1" class="labelHomeProp" />
+				</View>
+				<View id="viewVLine1" class="viewVLine" />
+			</View>
+			<View id="viewPod2" class="viewPod">
+				<View class="viewPodContainer">
+					<Label id="labelVal2" class="labelHomeVal" />
+					<Label id="labelProp2" class="labelHomeProp" />
+				</View>
+			</View>
+		</View>
+		<View class="viewHLine" />
+	</TableViewRow>
+</Alloy>

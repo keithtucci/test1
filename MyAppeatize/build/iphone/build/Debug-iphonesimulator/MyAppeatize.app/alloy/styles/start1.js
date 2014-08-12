@@ -1,0 +1,1 @@
+/Users/keithtucci/Appeatize/Dev/Projects/Appeatize/mobile/MyAppeatize/Resources/iphone/alloy/styles/start1.js

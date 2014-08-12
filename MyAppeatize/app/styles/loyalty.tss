@@ -1,0 +1,11 @@
+"#tab" : {
+	title : "Loyalty",
+	icon : "img/loyalty.png", 
+	activeIcon : "img/loyalty-fill.png"
+},
+"#win" : {
+	title : "Loyalty"
+},
+"#labelNoDataMessage" : {
+	text : "Contact Appeatize to learn more about our Loyalty service."
+}

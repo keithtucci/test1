@@ -1,0 +1,55 @@
+"#win": {
+	tabBarHidden: true
+},
+"#viewData": {
+	layout: "absolute"
+},
+"#viewHLinePickerTime": {
+	bottom: 0
+},
+"#viewPickerTime": {
+	top: 0,
+	height: 162,
+	layout: "absolute"
+},
+"#tableview": {
+	top: "-36"
+},
+"#labelStartDate": {
+	text: "Start Date"
+},
+".labelRowLabel": {
+	left: 15
+},
+"#labelRepeat": {
+	text: "Repeat"
+},
+"#labelPause": {
+	text: "Pause"
+},
+"#switchPause" : {
+	value : false,
+	right : 15
+},
+"#labelContent": {
+	text: "Content"
+},
+"#labelCampaignName" : {
+	text : "Name"
+},
+"#labelContentVal": {
+	text: "Required"
+},
+"#imageviewRightArrow": {
+	visible: true
+},
+"#textfieldCampaignName" : {
+	left : 80,
+	hintText : "Required",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	maxLength : 20
+},
+"#tableviewrowPickerTime" : {
+	height : Ti.UI.SIZE
+}
+

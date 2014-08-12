@@ -1,0 +1,118 @@
+"#tab": {
+	title: "Orders",
+	icon: "img/orders.png",
+	activeIcon: "img/orders-fill.png"
+},
+"#win": {
+	title: "Orders"
+}
+"#viewData": {
+	visible : false
+},
+".buttonMove": {
+	right: 15
+},
+".buttonEdit": {
+	right: 15
+},
+
+".buttonAdd": {
+	left: 15
+},
+"#tableviewOrders": {
+	//top: 0,
+	top: "-36",
+	//bottom : 44
+	height: Ti.UI.FILL,
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE,
+	//separatorColor : "#E8E8E8"
+},
+"#labelName": {
+	text: "Name"
+},
+"#labelOrderNumber": {
+	text: "Order #"
+},
+"#labelDtCreated": {
+	text: "Order\nPlaced"
+},
+"#labelDtPickup": {
+	text: "Requested\nPickup"
+},
+"#labelDtEstComplete": {
+	text: "Estimated\nCompleted"
+},
+"#labelOrderStatusName": {
+	text: "Status"
+},
+".viewRightPanel": {},
+".viewContent": {},
+"#tableviewOrderDetail": {
+	top: "-36",
+	allowsSelection: true
+},
+"#labelOrderText": {
+	width: Ti.UI.FILL,
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	left: 10,
+	right: 10,
+	top: 10
+},
+"#tableviewrowOrderText": {
+	height: Ti.UI.SIZE
+},
+"#labelOrderNumberNameData": {
+	left: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+"#labelOrderStatusNameData": {
+	right: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+"#viewHeader": {
+	width: Ti.UI.FILL,
+	height: 65,
+	layout: "absolute"
+},
+"#scrollview": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	scrollType: "vertical"
+},
+"#textareaOrderText": {
+	editable: false,
+	scrollable: true,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	font: {
+		fontSize: 22,
+		fontWeight: "bold"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	left: 10
+},
+".viewContent": {
+	layout: "vertical"
+},
+".buttonNextAction": {
+	//style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	right: 10
+},
+".buttonDelete": {
+	left: 10
+},
+"#dialogDeleteActions": {
+	title: 'Are you sure you want to delete this order...?',
+	//cancel: 1,
+	destructive: 0,
+	options: ["Yes, delete order", "No"]
+},
+"#labelNoDataMessage" : {
+	text : "There are currently no open orders."
+}
+
+

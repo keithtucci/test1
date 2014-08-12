@@ -1,0 +1,11 @@
+"#tab" : {
+	title : "Reservations",
+	icon : "img/reservations.png", 
+	activeIcon : "img/reservations-fill.png"
+},
+"#win" : {
+	title : "Reservations"
+},
+"#labelNoDataMessage" : {
+	text : "Contact Appeatize to learn more about our Reservations service."
+}

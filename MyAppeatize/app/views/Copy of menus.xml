@@ -1,0 +1,29 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" visible="true">
+			<View id="viewData" class="viewData" visible="true" >
+				<View class="viewLeftPanel">
+					<View class="viewHeader">
+						<Button id="buttonEditMenu" class="buttonMove" onClick="setMenusMoveable" />
+						<Button class="buttonAdd" onClick="addMenu" />
+					</View>
+					<View class="viewHLine" />
+					<View class="viewContent">
+						<TableView id="tableviewMenuList" class="tableviewgrouped"  />
+					</View>
+				</View>
+				<View class="viewVLine" />
+				<View class="viewRightPanel">
+					<View class="viewHeader">
+						<Button id="buttonMenuLabel" class="buttonLabel" onClick="editMenu" />
+						<Button class="buttonEdit" onClick="openMenuGroup" />
+					</View>
+					<View class="viewHLine" />
+					<View class="viewContent">
+						<TableView id="tableviewMenu" class="tableviewplain" />
+					</View>
+				</View>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

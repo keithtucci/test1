@@ -1,0 +1,9 @@
+"#win": {
+	tabBarHidden: true
+},
+"#viewData": {
+	layout: "vertical"
+},
+"#labelNoDataMessage" : {
+	text : "Contact Appeatize to learn more about our Company service."
+}

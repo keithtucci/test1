@@ -1,0 +1,8 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" visible="true">
+			<View id="viewData" class="viewData" visible="true" >
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

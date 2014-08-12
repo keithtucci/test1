@@ -1,0 +1,9 @@
+<Alloy>
+	<TabGroup id="tabgroup" visible="true">
+		<Require id="home" src="home" />
+		<Require id="orders" src="orders" />
+		<Require id="reservations" src="reservations" />
+		<Require id="loyalty" src="loyalty" />
+		<Require id="deals" src="deals" />
+	</TabGroup>
+</Alloy>

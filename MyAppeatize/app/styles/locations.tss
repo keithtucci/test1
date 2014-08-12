@@ -1,0 +1,27 @@
+"#win": {
+	tabBarHidden : true, 
+	navBarHidden : true,
+	//statusBarStyle : Ti.UI.iPhone.StatusBar.GREY
+	//titleImage : 'images/logo_white.png'
+	titleImage : '/images/navtitle-white.png'
+},
+"#win2": {
+	//navBarHidden : true,
+	title : "Locations",
+	//titleImage : 'images/logo_white.png'
+	//title : Alloy.CFG.AppName
+	backgroundColor : "#FFFFFF",
+	titleImage : '/images/navtitle-white.png'
+	//titleImage : 'images/logo_white.png'
+},
+"#viewData" : {
+	//width : 320,
+	layout : "absolute",
+	//top : "-20"
+},
+"#tableview" : {
+	width : 320,
+	//height : Ti.UI.SIZE,
+	scrollable : false,
+	top : 0
+}

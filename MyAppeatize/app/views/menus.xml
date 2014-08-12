@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="win" visible="true">
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="closeWin" />
+		</LeftNavButton>
+		<!-- <RightNavButton>
+		<Button id="buttonEditMenu" class="buttonMove" onClick="setMenusMoveable" />
+		</RightNavButton> -->
+		<!-- <Button class="buttonAdd" onClick="addMenu" /> -->
+		<View id="viewData" class="viewData" visible="true" >
+			<TableView id="tableviewMenuList" class="tableviewgrouped"  />
+		</View>
+		<View id="viewLoading" class="viewLoading">
+			<View id="viewLoadingContainer" class="viewLoadingContainer">
+				<ActivityIndicator id="activityindicatorLoading" />
+				<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+			</View>
+		</View>
+		<View id="viewNoData" class="viewNoData">
+			<View class="viewNoDataContainer">
+				<ImageView class="imageviewMenusNoData" />
+				<Label id="labelNoDataMessage" class="labelNoDataMessage" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

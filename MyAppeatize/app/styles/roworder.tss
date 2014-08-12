@@ -1,0 +1,50 @@
+"#row": {
+	height: 120,
+	selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE
+},
+"#viewRowMain": {
+	width: Ti.UI.FILL,
+	layout: "absolute",
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: "0"
+},
+"#viewHLineBottom": {
+	bottom: 0
+},
+"#viewHLineTop": {
+	top: 0
+},
+"#viewLabels": {
+	//backgroundColor : "#FF9900",
+	//width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical",
+	left: 10,
+	right: 10,
+	top: 10,
+	bottom: 10
+},
+".viewHRow": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "absolute"
+},
+"#labelOrderText": {
+	ellipsize: true,
+	color: "#177EFB",
+	font: {
+		fontSize: 14
+	}
+},
+".buttonAction": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	tintColor: "#FFFFFF"
+},
+".viewAction": {
+	right: 0,
+	width: 0,
+	height: Ti.UI.FILL
+},

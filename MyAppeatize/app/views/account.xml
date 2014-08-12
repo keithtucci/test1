@@ -1,0 +1,31 @@
+<Alloy>
+	<Window id="win" >
+		<OptionDialog id="dialogActions" />
+		<AlertDialog id="alertDialog" title="" />
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="closeWin"/>
+		</LeftNavButton>
+		<RightNavButton>
+			<Button id="buttonSettings" class="buttonSettings" onClick="openSettings"/>
+		</RightNavButton>
+		<View id="viewData" class="viewData" >
+			<TableView id="tableview" class="tableviewgrouped">
+				<TableViewRow onClick="doLogOut">
+					<Button id="buttonLogout" />
+				</TableViewRow>
+			</TableView>
+		</View>
+		<View id="viewLoading" class="viewLoading">
+			<View id="viewLoadingContainer" class="viewLoadingContainer">
+				<ActivityIndicator id="activityindicatorLoading" />
+				<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+			</View>
+		</View>
+		<View id="viewNoData" class="viewNoData">
+			<View class="viewNoDataContainer">
+				<ImageView class="imageviewReservationNoData" />
+				<Label id="labelNoDataMessage" class="labelNoDataMessage" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

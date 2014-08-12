@@ -1,0 +1,30 @@
+"#row" : {
+	height : Ti.UI.SIZE,
+	selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE
+},
+"#viewRowMain" : {
+	layout : "vertical"
+},
+"#labelName": {
+	//left: 15,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 22,
+		fontWeight: "bold"
+	}
+},
+"#labelDescr": {
+	//left: 15,
+	//color : "#AAAAAA",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	height: 0,
+	font: {
+		fontSize: 16,
+	}
+},
+"#viewHLine" : {
+	bottom : 0
+}

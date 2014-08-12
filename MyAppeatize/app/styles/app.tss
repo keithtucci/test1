@@ -1,0 +1,710 @@
+"Window": {
+	//backgroundColor: "#f8f8f8",
+	backgroundColor: "#F7F7F7",
+	layout: "absolute",
+	tabBarHidden: false,
+	navBarHidden: false,
+	tintColor: "#666666",//FC3D39//8C8C8B//23323D
+	navTintColor: "#F7F7F7",
+	barColor: "#282828",
+	//translucent: false,
+	fullscreen: false,
+	//orientationModes: [Ti.UI.PORTRAIT],
+	//includeOpaqueBars: false,
+	translucent: false
+},
+"Window[platform=ios]": {
+	statusBarStyle: Ti.UI.iPhone.StatusBar.LIGHT_CONTENT
+},
+"#win2": {},
+"AlertDialog": {
+	color: "#030303",
+	tintColor: "#D82D16"
+},
+"TabGroup[platform=ios]": {
+	barColor: "#FFFFFF",
+	//backgroundColor: "#FFFFFF",
+	tintColor: "#282828"
+},
+"Toolbar[platform=ios]": {
+	bottom: 0,
+	//borderWidth : 0,
+	borderTop: false,
+	borderBottom: false,
+	borderColor: "#D0D1D5",
+	barColor: "#F7F7F7",
+	tintColor: "#666666"
+},
+"Button": {
+	backgroundColor: "transparent",
+	borderColor: "transparent",
+	borderWidth: 0,
+	font: {
+		fontSize: 16
+	}
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	highlightedColor: "#fff",
+	color: "#23323D",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+		fontSize: 16
+	}
+},
+"TextField[platform=ios]": {
+	height: 40,
+	color: "#2E2E2D",
+	backgroundColor: '#fff',
+	width: Ti.UI.FILL,
+	borderRadius: 0,
+	borderColor: "#fff",
+	borderWidth: 1,
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT,
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_NONE,
+	clearButtonMode: Ti.UI.INPUT_BUTTONMODE_ONFOCUS,
+	font: {
+		fontSize: 18
+	},
+	paddingLeft: 5
+},
+"TextArea": {
+	scrollable: true,
+	height: 40,
+	color: "#2E2E2D",
+	backgroundColor: '#fff',
+	width: Ti.UI.FILL,
+	borderRadius: 0,
+	borderColor: "#fff",
+	borderWidth: 1,
+	enableReturnKey: true,
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT,
+	//returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_NONE,
+	clearButtonMode: Ti.UI.INPUT_BUTTONMODE_ONFOCUS,
+	font: {
+		fontSize: 18
+	}
+},
+"Picker": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	borderRadius: 0,
+	borderColor: "#fff",
+	borderWidth: 0,
+	selectionIndicator: "true",
+	useSpinner: "true",
+	type: Titanium.UI.PICKER_TYPE_PLAIN
+},
+"TableView": {
+	//separatorColor: '#FFFFFF',
+	height: Ti.UI.FILL,
+	backgroundColor: "transparent",
+	allowsSelection: true
+},
+"TableViewRow[platform=ios]": {
+	layout: "absolute",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	//height: 80,
+	//tintColor: "#B02327",
+	backgroundColor: "#FFFFFF",
+	selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE,
+	font: {
+		fontSize: 18
+	}
+},
+"ScrollView": {
+	backgroundColor: "transparent",
+	scrollType: "vertical",
+	layout: "vertical",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+".tableviewgrouped[platform=ios]": {
+	style: Titanium.UI.iPhone.TableViewStyle.GROUPED,
+	backgroundColor: 'transparent'
+},
+".tableviewplain[platform=ios]": {
+	style: Titanium.UI.iPhone.TableViewStyle.PLAIN,
+	backgroundColor: 'transparent'
+},
+".viewData": {
+	top: 0,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	layout: "vertical",
+	visible: true
+},
+".viewNoData": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "absolute",
+	visible: false
+},
+".viewNoDataContainer": {
+	layout: "vertical"
+},
+".labelNoDataMessage":{
+	width: Ti.UI.FILL,
+	left: 20,
+	right: 20,
+	textAlign: "center",
+	color: "#999999",
+	font: {
+		fontSize: 16
+	}
+},
+".viewLoading": {
+	//top: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "absolute",
+	visible: false,
+	backgroundColor: "#AAAAAA",
+	opacity: ".70",
+	borderRadius : 0
+},
+".viewLoadingContainer": {
+	layout: "absolute",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+".labelLoadingMessage":{
+	top: 10,
+	width: Ti.UI.FILL,
+	//left: 10,
+	//right: 10,
+	textAlign: "center",
+	color: "#F7F7F7",
+	font: {
+		fontSize: 16
+	}
+},
+"#activityindicatorLoading[platform=ios]": {
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG
+},
+".viewNoDataContainer": {
+	layout: "vertical",
+	height: Ti.UI.SIZE
+},
+"#buttonNext":{
+	title: "Next",
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR
+},
+".buttonBack": {
+	//title: "Back"
+	image: '/images/left-arrow-nav2.png'
+},
+".buttonAction": {
+	//title: "Back"
+	image: '/images/702-share.png'
+},
+"#buttonClose":{
+	//title: "Close",
+	image: '/images/x.png'
+},
+"#buttonDown":{
+	//title: "Close",
+	image: '/images/down-arrow-nav2.png'
+},
+"#buttonCancel": {
+	title: "Cancel"
+},
+"#buttonDone[platform=ios]": {
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	title: "Done"
+},
+".buttonUpdate[platform=ios]": {
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	title: "Update"
+},
+".textfieldFormField": {
+	left: 120,
+	textAlign: "left",
+	right: 10,
+	color: "#000000"
+},
+".labelRow":{
+	left: 10,
+	textAlign: "left",
+	font: {
+		fontSize: 16
+	}
+},
+".viewHLine": {
+	width: Ti.UI.FILL,
+	height: "1px",
+	borderColor: "#D0D1D5",
+	borderWidth: "1px"
+},
+".viewVLine": {
+	height: Ti.UI.FILL,
+	width: "1px",
+	borderColor: "#D0D1D5",
+	borderWidth: "1px"
+},
+".viewLine": {
+	//top : 0,
+	height: "1px",
+	borderColor: "#D0D1D5",
+	borderWidth: "1px"
+},
+".buttonLogOut": {
+	title: "Log out"
+},
+".buttonSearchText": {
+	title: "Search",
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR
+},
+".buttonSearch": {
+	image: '/images/search.png'
+},
+".buttonAccount": {
+	image: '/images/account.png'
+},
+".buttonList": {
+	image: '/images/list.png'
+},
+".buttonMap": {
+	image: '/images/map.png'
+},
+".buttonShare": {
+	image: '/images/share.png'
+},
+".buttonReviews": {
+	image: '/images/reviews.png'
+},
+".buttonFilter": {
+	image: '/images/798-filter.png'
+},
+".buttonMore": {
+	image: '/images/more.png'
+},
+".buttonCallText": {
+	title: "Call"
+},
+".buttonCall": {
+	image: '/images/phone.png'
+},
+".buttonRefresh": {
+	image: '/img/refresh.png'
+},
+".buttonPrint": {
+	image: '/img/printer.png'
+},
+".buttonCompass": {
+	image: '/images/compass.png'
+},
+".buttonDirectionsText": {
+	title: "Map"
+},
+".buttonDirections": {
+	//image: '/images/directions.png',
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	title: "Directions"
+},
+".buttonOrder": {
+	//image: '/images/directions.png',
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	title: "Place Order"
+},
+".buttonSearchHere": {
+	//title : 'Search here',
+	image: '/images/crosshair.png'
+},
+"#buttonLocation": {
+	image: '/images/701-location.png'
+},
+".buttonListText": {
+	title: 'List'
+},
+".buttonMapText": {
+	title: 'Map'
+},
+".labelProp": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	left: 1
+},
+".labelVal": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	left: 1
+},
+".labelDetails": {
+	left: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	color: "#8C8C8B", //C0C0BE
+	font: {
+		fontSize: 14
+	}
+},
+".buttonDetailsLink": {
+	//left : 0 ,
+	font: {
+		fontSize: 13
+	}
+},
+".labelSection": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	//left : 10,
+	font: {
+		fontSize: 16
+	}
+},
+".labelSectionMenu": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	//left : 10,
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	}
+},
+".labelTitle": {
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	}
+},
+".viewLineRow": {
+	bottom: 0,
+	left: 0,
+	right: 0,
+	width: Ti.UI.FILL
+},
+".imageviewRightArrow": {
+	right: 5,
+	image: "/images/right-arrow-row.png",
+	visible: false,
+	//tintColor : "#CBCBCB",
+	touchEnabled: false
+},
+".viewRowMain": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "absolute",
+	top: 10,
+	bottom: 10,
+	left: 10,
+	right: 10
+},
+".buttonIcon": {
+	//tintColor : "#2E2E2D",
+	touchEnabled: false
+},
+".viewLeftImage": {
+	left: 0,
+	width: 0,
+	height: Ti.UI.SIZE
+},
+".viewToolbar": {
+	opacity: ".95",
+	bottom: 0,
+	backgroundColor: "#f8f8f8",
+	height: 44
+}
+"#scrollview": {
+	layout: "vertical"
+},
+".viewNavSpacer": {
+	height: 64
+},
+".viewFooterSpacer": {
+	height: 44
+},
+"#viewLineToolbar": {
+	top: 0
+},
+".viewToolbarContainer": {
+	bottom: 0,
+	layout: "absolute",
+	height: 44,
+	backgroundColor: "transparent"
+},
+".viewToolbarOpaque": {
+	opacity: ".80",
+	bottom: 0,
+	backgroundColor: "#282828",
+	height: Ti.UI.FILL
+},
+".viewToolbarButtons": {
+	bottom: 0,
+	backgroundColor: "transparent",
+	height: Ti.UI.FILL
+},
+".viewRowMainContainer": {
+	borderColor: "#D8D9DC",
+	borderWidth: 1,
+	backgroundColor: "#FFFFFF",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	left: 10,
+	right: 10,
+	bottom: 0,
+	top: 10
+},
+"#labelPageTitle": {
+	color: "#ffffff",
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	}
+},
+"#viewPageTitle": {
+	backgroundColor: "#666666",
+	height: 0,
+	width: Ti.UI.FILL
+},
+".viewHeader": {
+	backgroundColor: "#F7F7F7",
+	width: Ti.UI.FILL,
+	height: 44
+},
+".buttonSave": {
+	title: "Save"
+},
+".buttonEdit": {
+	title: "Edit"
+},
+".buttonMove": {
+	title: "Move"
+},
+".buttonAdd": {
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	title: "Add"
+},
+".buttonSave": {
+	style: Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	title: "Save"
+},
+".buttonDelete": {
+	title: "Delete"
+},
+".viewContent": {
+	backgroundColor: "#FFFFFF",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+".viewLeftPanel": {
+	width: 320,
+	layout: "vertical"
+},
+".viewRightPanel": {
+	layout: "vertical"
+},
+".buttonLabel": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	left: 60,
+	right: 60,
+	width: Ti.UI.FILL
+},
+".textareaGeneric": {
+	height: Ti.UI.FILL,
+	left: 145
+},
+".textfieldGeneric": {
+	left: 145
+},
+".viewVertLine":{
+	width: 1,
+	height: Ti.UI.FILL,
+	backgroundColor: "#d1d1d1"
+},
+".labelRowTitle": {
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	},
+	left: 15,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".labelRowProp": {
+	color: "#AAAAAA",
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	},
+	left: 15,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".labelRowVal": {
+	font: {
+		fontSize: 16,
+		fontWeight: "bold"
+	},
+	left: 145,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".rowForm":{
+	height: 60,
+	layout: "absolute"
+},
+"#viewVertLineRow[platform=ios formFactor=tablet]": {
+	left: 135
+},
+".labelTitle": {
+	//left: 15,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	//height: Ti.UI.SIZE,
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	}
+},
+".labelSubTitle": {
+	//left: 15,
+	//color : "#AAAAAA",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	//height: 0,
+	font: {
+		fontSize: 16
+	}
+},
+".labelDate": {
+	//left: 15,
+	//color: "#40AB2B",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	//height: 0,
+	font: {
+		fontSize: 16
+	}
+},
+".tableviewrowDefault": {
+	height: 50
+},
+".imageviewOrderNoData": {
+	bottom : 20,
+	image: 'img/check-2-nodata.png'
+},
+".imageviewLoyaltyNoData": {
+	bottom : 20,
+	image: 'img/crown-3-nodata.png'
+},
+".imageviewReservationNoData": {
+	bottom : 20,
+	image: 'img/clock-3-nodata.png'
+},
+".imageviewDealsNoData": {
+	bottom : 20,
+	image: 'img/tag-1-nodata.png'
+},
+".imageviewMenusNoData": {
+	bottom : 20,
+	image: 'img/list-2-nodata.png'
+},
+".imageviewCompanyNoData": {
+	bottom : 20,
+	image: 'img/flag-1-nodata.png'
+},
+".imageviewCampaignsNoData": {
+	bottom : 20,
+	image: 'img/megaphone-1-nodata.png'
+},
+".buttonAccount": {
+	image: '/images/account.png'
+},
+".buttonSettings":{
+	//title: "Close",
+	image: '/img/setting-gear.png'
+},
+".labelRowTitle": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+	wordWrap : false,
+	height : 22,
+	font: {
+		fontSize: 18
+	},
+	ellipsize : true
+},
+".labelRowData": {
+	color : "#AAAAAA",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL, 
+	height : 20,
+	wordWrap : false,
+	font: {
+		fontSize: 16
+	},
+	ellipsize : true
+},
+".labelRowVal" : {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: "#177EFB",
+	width: Ti.UI.FILL, 
+	right : 30,
+	left : 80,
+	height : 20,
+	wordWrap : false,
+	font: {
+		fontSize: 16
+	}	
+},
+".buttonEdit2":{
+	image: '/img/edit-2.png'
+},
+".buttonAnalytics":{
+	image: '/img/pie-chart-2.png'
+},
+".textfieldForm": {
+	left: 14,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	right: 0,
+	color: "#282828",
+	paddingLeft: 1
+},
+".tableviewrowForm": {
+	height: 44
+},
+".buttonSignInUpAction": {
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	font: {
+		fontSize: 18
+	},
+	tintColor: "#FFFFFF"
+},
+".viewActionButton": {
+	backgroundColor: "#40AB2B",
+	//top: 163,
+	top: 20,
+	height: 44,
+	left: 20,
+	right: 20,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".viewSignInUp": {
+	//visible: false,
+	layout: "vertical",
+	top: 0
+},
+".textfieldPassword": {
+	hintText: "Password",
+	passwordMask: true,
+	maxLength: 20,
+	keyboardType: Titanium.UI.DEFAULT,
+	autocorrect: false,
+	autocapitalization: Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+},
+".viewGenericNavBar": {
+	top: 0,
+	height: 64,
+	backgroundColor: "#282828"
+},
+".labelImportant": {
+	color: "#FC3D39",
+	font: {
+		fontSize: 18
+	}
+},

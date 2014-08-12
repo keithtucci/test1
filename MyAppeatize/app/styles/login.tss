@@ -1,0 +1,61 @@
+"#win": {
+	tabBarHidden : true, 
+	navBarHidden : true,
+	//statusBarStyle : Ti.UI.iPhone.StatusBar.GREY
+	//titleImage : 'images/logo_white.png'
+	titleImage : '/images/navtitle-white.png'
+},
+"#win2": {
+	//navBarHidden : true,
+	//title : "Slomin's",
+	//titleImage : 'images/logo_white.png'
+	//title : Alloy.CFG.AppName
+	//backgroundColor : "#FFFFFF",
+	titleImage : '/images/navtitle-white.png'
+	//titleImage : 'images/logo_white.png'
+},
+"#viewData" : {
+	//width : 320,
+	layout : "absolute",
+	//top : "-20"
+},
+"#textfieldUsername" : {
+	left: 15, 
+	autocapitalization: false,
+	autocorrect: false,
+	hintText: 'Username',
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+	maxLength: 50
+},
+"#textfieldPassword" : {
+	left: 15, 
+	passwordMask: true,
+	hintText: 'Password',
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	maxLength: 50
+},
+"#buttonLogIn" : {
+	style: Titanium.UI.iPhone.SystemButtonStyle.DONE,
+	title: "Log In",
+	enabled : false
+},
+"#tableview" : {
+	width : 320,
+	//height : Ti.UI.SIZE,
+	scrollable : false,
+	top : 0
+},
+"#labelLogin" : {
+	text : "Log In"
+},
+"#viewButtonLogin" : {
+	width : 320,
+	top : 20,
+	height : 44,
+	//backgroundColor : "#4BD763"
+},
+"#viewForm" : {
+	layout : "vertical",
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZ
+}

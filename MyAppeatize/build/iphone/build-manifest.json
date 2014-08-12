@@ -1,0 +1,23 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "iphone",
+	"iosSdkPath": "/Users/keithtucci/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "72219161f931aadf39b2f1901bb02175",
+	"modulesNativeHash": "e08292e271a0d5863c72cbf4cf65445a",
+	"gitHash": "787cd39",
+	"name": "MyAppeatize",
+	"id": "com.myappeatize",
+	"analytics": false,
+	"publisher": "Appeatize",
+	"url": "http://appeatize.com",
+	"version": "1.2.0",
+	"description": "Appeatize",
+	"copyright": "2014 by Appeatize",
+	"guid": "b246051a-261c-46d9-9a12-5b57710d276a",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false,
+	"encryptJS": false
+}

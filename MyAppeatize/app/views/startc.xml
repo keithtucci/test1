@@ -1,0 +1,20 @@
+<Alloy>
+	<NavigationWindow id="win" module="xp.ui">
+		<Window id="win2" >
+			<ImageView id="imageviewMain" class="imageviewMain" />
+			<!-- <View id="viewNavBar" class="viewNavBar1" /> -->
+			<View id="viewButtonsBg" class="viewButtons viewButtonsBg" />
+			<View id="viewButtons" class="viewButtons">
+				<View class="viewButtonStart" >
+					<Button id="buttonSignUp" class="buttonStart" onClick="openSignUp" />
+					<View id="viewVLine" class="viewVLine" />
+				</View>
+				<View class="viewButtonStart" >
+					<Button id="buttonLogIn" class="buttonStart" onClick="openLogIn" />
+				</View>
+			</View>
+			<Button id="buttonRefresh" class="buttonRefresh" onClick="doRefresh" />
+			<ActivityIndicator id="activityindicatorLoading" />
+		</Window>
+	</NavigationWindow>
+</Alloy>

@@ -1,0 +1,11 @@
+"#tab" : {
+	title : "Deals",
+	icon : "img/deals.png", 
+	activeIcon : "img/deals-fill.png"
+},
+"#win" : {
+	title : "Deals"
+},
+"#labelNoDataMessage" : {
+	text : "Contact Appeatize to learn more about our Deals service."
+}

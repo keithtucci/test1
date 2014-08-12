@@ -1,0 +1,33 @@
+<Alloy>
+	<NavigationWindow id="win">
+		<Window id="win2" visible="true">
+			<LeftNavButton>
+				<Button id="buttonDown" class="buttonDown" onClick="closeWin"  />
+			</LeftNavButton>
+			<View id="viewData" class="viewData" visible="true" >
+				<View class="viewLeftPanel">
+					<View class="viewHeader">
+						<Button id="buttonEditMenuGroup" class="buttonMove" onClick="setMenuGroupMoveable" />
+						<Button class="buttonAdd" onClick="addMenuGroup" />
+					</View>
+					<View class="viewHLine" />
+					<View class="viewContent">
+						<TableView id="tableviewMenuGroup" class="tableviewgrouped" />
+					</View>
+				</View>
+				<View class="viewVLine" />
+				<View class="viewRightPanel">
+					<View class="viewHeader">						
+						<Button class="buttonAdd" onClick="addMenuItem" />
+						<Button id="buttonMenuGroupLabel" class="buttonLabel" onClick="editMenuGroup" />
+						<Button id="buttonEditMenuItem" class="buttonMove" onClick="setMenuItemMoveable" />
+					</View>
+					<View class="viewHLine" />
+					<View class="viewContent">
+						<TableView id="tableviewMenuItem" class="tableviewgrouped" />
+					</View>
+				</View>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

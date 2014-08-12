@@ -1,0 +1,76 @@
+"#win": {
+	//backgroundImage : "images/bg2.png",
+	//statusBarStyle : Ti.UI.iPhone.StatusBar.LIGHT_CONTENT
+	//visible : false,
+	//fullscreen: true,
+	//backgroundColor : "#050505",
+	navBarHidden: true
+},
+"#win2": {
+	//fullscreen : false,
+	//statusBarStyle : Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	//fullscreen: true,
+	//backgroundImage: "Default.png",
+	backgroundColor : "#050505",
+	navBarHidden: true
+},
+"#buttonGeStarted": {
+	top: 120,
+	title: "Get Started",
+	font: {
+		fontSize: 24
+	},
+	tintColor: "#FFFFFF"
+},
+"#viewData": {
+	layout: "absolute",
+	backgroundColor : "transparent"
+},
+".buttonStart": {
+	font: {
+		fontSize: 20
+	}
+},
+".buttonStart" : {
+	height : Ti.UI.FILL,
+	width : Ti.UI.FILL,
+	tintColor : "#FFFFFF",
+	font: {
+		fontSize: 18
+	}	
+},
+"#buttonLogIn": {	
+	title: "Log In"
+},
+"#buttonSignUp": {
+	title: "Sign Up"
+},
+".viewButtons": {
+	height: 60,
+	width : Ti.UI.FILL,
+	layout: "horizontal",
+	bottom: 0
+},
+".viewButtonsBg": {
+	backgroundColor : "#282828",
+	opacity : ".7",
+},
+".viewButtonStart": {
+	height : Ti.UI.FILL,
+	width : "50%"
+},
+"#viewVLine" : {
+	top : 10,
+	bottom : 10,
+	right : 0,
+	borderColor : "#AAAAAA"
+},
+"#buttonRefresh" : {
+	tintColor : "#FFFFFF",
+	title : 'Reload',
+	visible : false
+},
+"#imageviewMain" : {
+	image : "img/bg1.jpg"
+}
+

@@ -1,0 +1,49 @@
+<Alloy>
+	<NavigationWindow id="win">
+		<Window id="win2" visible="true">
+			<LeftNavButton>
+				<Button id="buttonDown" class="buttonDown" onClick="closeWin"  />
+			</LeftNavButton>
+			<RightNavButton>
+				<Button id="buttonDone" class="buttonDone" onClick="doValidate" />
+			</RightNavButton>
+			<AlertDialog id="alertDialog" title="" />
+			<OptionDialog id="dialogDelete" class="dialogDelete" />
+			<View id="viewData" class="viewData" visible="true" >
+				<!-- <ScrollView id="scrollview"> -->
+				<TableView id="tableview1" class="tableviewgrouped">
+					<TableViewRow id="tableviewrowName" class="rowForm">
+						<Label id="labelName" class="labelRowTitle" />
+						<View id="viewVertLineRow" class="viewVertLine" />
+						<TextField id="textfieldName" class="textfieldGeneric" />
+					</TableViewRow>
+					<TableViewRow id="tableviewrowDescr" class="rowForm">
+						<Label id="labelDescr" class="labelRowTitle" />
+						<View id="viewVertLineRow" class="viewVertLine" />
+						<TextArea id="textareaDescr" class="textareaGeneric" />
+					</TableViewRow>
+				</TableView>
+				<TableView id="tableview2" class="tableviewgrouped">
+					<TableViewRow id="tableviewrowPrice" class="rowForm">
+						<Label id="labelPrice" class="labelRowTitle" />
+						<View id="viewVertLineRow" class="viewVertLine" />
+						<TextField id="textfieldPrice" class="textfieldGeneric" onChange="doCleanNumeric" />
+					</TableViewRow>
+					<TableViewRow id="tableviewrowPriceText" class="rowForm">
+						<Label id="labelPriceText" class="labelRowTitle" />
+						<View id="viewVertLineRow" class="viewVertLine" />
+						<TextField id="textfieldPriceText" class="textfieldGeneric" />
+					</TableViewRow>
+				</TableView>
+				<!-- </ScrollView> -->
+			</View>
+			<Toolbar>
+				<Items>
+					<FlexSpace/>
+					<Button id="buttonDelete" class="buttonDelete" onClick="openDialogDelete" />
+					<FlexSpace/>
+				</Items>
+			</Toolbar>
+		</Window>
+	</NavigationWindow>
+</Alloy>

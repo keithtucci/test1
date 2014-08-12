@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="win" >
+		<OptionDialog id="dialogActions" />
+		<AlertDialog id="alertDialog" title="" />
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="closeWin"/>
+		</LeftNavButton>
+		<View id="viewData" class="viewData" ></View>
+		<View id="viewLoading" class="viewLoading">
+			<View id="viewLoadingContainer" class="viewLoadingContainer">
+				<ActivityIndicator id="activityindicatorLoading" />
+				<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+			</View>
+		</View>
+		<View id="viewNoData" class="viewNoData">
+			<View class="viewNoDataContainer">
+				<ImageView class="imageviewCompanyNoData" />
+				<Label id="labelNoDataMessage" class="labelNoDataMessage" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

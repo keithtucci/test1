@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="win" >
+		<!-- <LeftNavButton>
+		<Button id="buttonLogOut" class="buttonLogOut" onClick="doLogOut"  />
+		</LeftNavButton> -->
+		<AlertDialog id="alertDialog" title="" />
+		<View id="viewData" class="viewData" >
+			<TableView id="tableview" class="tableviewgrouped" />
+		</View>
+		<View id="viewLoading" class="viewLoading" visible="false">
+			<View id="viewLoadingContainer" class="viewLoadingContainer">
+				<ActivityIndicator id="activityindicatorLoading" />
+				<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

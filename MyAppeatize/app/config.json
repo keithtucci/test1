@@ -1,0 +1,47 @@
+{
+	"global": {
+		"ErrorMessage": "An error has occurred comunicating to the server, please try again.",
+		"HttpTimeout": "60000",
+		"TimerInterval": "60000",
+		"CompanyUrl": "http://appeatize.com",
+		"SupportEmail" : "support@appeatize.com"
+	},
+	"env:development": {
+		"AppCode": "appeatize_dev",
+		"AppName": "MyAppeatize",
+		"Environment": "d",
+		"_SecureBaseUrl": "http://api.appeatize.com",
+		"_ServiceUrl": "/appeatize/",
+		"_ServiceAppUrl": "/app/",
+		"SecureBaseUrl": "http://127.0.0.1:8888/services",
+		"ServiceUrl": "/appeatize/",
+		"ServiceAppUrl": "/app/"
+	},
+	"env:test": {
+		"AppCode": "appeatize_dev",
+		"AppName": "MyAppeatize",
+		"Environment": "t",
+		"SecureBaseUrl": "http://127.0.0.1:8888/services",
+		"ServiceUrl": "/appeatize/",
+		"ServiceAppUrl": "/app/"
+	},
+	"env:production": {
+		"AppCode": "appeatize_dev",
+		"AppName": "MyAppeatize",
+				
+		"SecureBaseUrl": "http://api2.appeatize.com",
+		"Environment": "q",
+		"ServiceUrl": "/appeatize/",
+		"ServiceAppUrl": "/app/",
+
+		"_SecureBaseUrl": "http://api.appeatize.com",
+		"_Environment": "p",
+		"_ServiceUrl": "/appeatize/",
+		"_ServiceAppUrl": "/app/"
+	},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {}
+} 

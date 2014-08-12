@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="win" >
+		<OptionDialog id="dialogActions" />
+		<AlertDialog id="alertDialog" title="" />
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="closeWin"/>
+		</LeftNavButton>
+		<View id="viewData" class="viewData" >
+			<TableView id="tableview" class="tableviewgrouped">
+				<TableViewRow id="tableviewrowNotifications" class="tableviewrowDefault">
+					<Switch id="switchNotifications" onChange="doNotifications" />
+				</TableViewRow>
+				<TableViewRow id="tableviewrowSupport" class="tableviewrowDefault" onClick="doEmail" />	
+			</TableView>
+			<View id="viewLogo" onClick="doUrl">
+				<Label id="labelPoweredBy" />
+				<ImageView id="imageviewLogo" />
+			</View>
+			<Label id="labelVersion" />
+		</View>
+		<ActivityIndicator id="activityindicatorLoading" />
+	</Window>
+</Alloy>

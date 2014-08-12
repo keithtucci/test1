@@ -1,0 +1,15 @@
+"#win": {
+	tabBarHidden: true
+},
+"#viewData": {
+	layout: "vertical"
+},
+"#buttonLogout": {
+	title: "Logout",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	width: Ti.UI.FILL,
+	color: "#ee3b33"
+},
+"#tableview": {
+	rowHeight: 60
+}

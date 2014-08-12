@@ -1,0 +1,25 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" visible="true">
+			<RightNavButton>
+				<Button id="buttonRefresh" class="buttonRefresh" onClick="doRefresh"  />
+			</RightNavButton>
+			<OptionDialog id="dialogDeleteActions" />
+			<View id="viewData" class="viewData" >
+				<TableView id="tableviewOrders" class="tableviewgrouped"  />
+			</View>
+			<View id="viewLoading" class="viewLoading">
+				<View id="viewLoadingContainer" class="viewLoadingContainer">
+					<ActivityIndicator id="activityindicatorLoading" />
+					<Label id="labelLoadingMessage" class="labelLoadingMessage" />
+				</View>
+			</View>
+			<View id="viewNoData" class="viewNoData">
+				<View class="viewNoDataContainer">
+					<ImageView class="imageviewOrderNoData" />
+					<Label id="labelNoDataMessage" class="labelNoDataMessage" />
+				</View>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>

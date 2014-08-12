@@ -1,0 +1,14 @@
+<Alloy>
+	<TableViewRow id="row" >
+		<View id="viewRowMain" class="viewRowMain" >
+			<View id="viewName" >
+				<Label id="labelName"   />
+				<Label id="labelDescr"   />
+			</View>
+			<View id="viewPrice" >
+				<Label id="labelPrice"   />
+				<Label id="labelPriceText"   />
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

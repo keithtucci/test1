@@ -1,0 +1,135 @@
+"#tab": {
+	title: "Orders",
+	icon: "img/orders.png",
+	activeIcon: "img/orders-fill.png"
+},
+"#win": {}
+"#viewData": {
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+".buttonMove": {
+	right: 15
+},
+".buttonEdit": {
+	right: 15
+},
+
+".buttonAdd": {
+	left: 15
+},
+"#tableviewOrders": {
+	//top: 0,
+	top: "-36"
+},
+"#labelName": {
+	color: "#AAAAAA"
+},
+"#labelDtCreated": {
+	color: "#AAAAAA"
+},
+"#labelDtEstComplete": {
+	//text: "Estimated\nCompleted"
+	font: {
+		fontSize: 18
+	}
+},
+"#labelOrderStatusName": {
+	color: "#AAAAAA"
+},
+"#buttonAction": {
+	tintColor: "#FFFFFF"
+},
+"#tableviewrowOrderText": {
+	height: Ti.UI.SIZE
+},
+"#labelOrderNumberNameData": {
+	left: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+"#labelOrderStatusNameData": {
+	right: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+"#viewHeader": {
+	width: Ti.UI.FILL,
+	height: 65,
+	layout: "absolute",
+	right: 10
+},
+"#textareaOrderText": {
+	editable: false,
+	scrollable: true,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	font: {
+		fontSize: 22,
+		fontWeight: "bold"
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	left: 10
+},
+".viewContent": {
+	layout: "vertical"
+},
+".buttonDelete": {
+	left: 10
+},
+"#dialogDeleteActions": {
+	title: 'Are you sure you want to delete this order...?',
+	//cancel: 1,
+	destructive: 0,
+	options: ["Yes, delete order", "No"]
+},
+"#tableview": {
+	top: "-36",
+	height: Ti.UI.FILL,
+	scrollable: false,
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+".labelOrder": {
+	left: 0,
+	font: {
+		fontSize: 16
+	}
+},
+"#textareaOrderText": {
+	height: Ti.UI.FILL,
+	top: 10,
+	left: 10,
+	bottom: 10,
+	height: Ti.UI.FILL,
+	color: "#177EFB",
+	editable: false,
+	font: {
+		fontSize: 20
+	}
+},
+"#viewRowMain": {
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	left: 15,
+	top: 10,
+	bottom: 10
+},
+"#viewHLine": {
+	bottom: 0
+},
+"#buttonPhone": {
+	top: 8,
+	left: 0,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	image: '/images/phone.png'
+},
+"#tableviewrowOrderData": {
+	height: 120
+},
+".viewAction": {
+	right: 0,
+	width: 0,
+	height: Ti.UI.FILL
+},
+"#viewHLineBottom": {
+	bottom: 0
+},
+

@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win" >
+		<LeftNavButton>
+			<Button id="buttonBack" class="buttonBack" onClick="closeWin"/>
+		</LeftNavButton>
+		<View id="viewData" class="viewData">
+			<TableView id="tableview" class="tableviewplain">
+				<TableViewRow id="tableviewrowHeader">
+					<TextArea id="textareaHeader" class="textareaGeneric1" onReturn="textareaHeader_return" />
+					<View class="viewLine" />
+				</TableViewRow>
+				<TableViewRow id="tableviewrowMessage" >
+					<TextArea id="textareaMessage" class="textareaGeneric1" />
+				</TableViewRow>
+			</TableView>
+		</View>
+	</Window>
+</Alloy>

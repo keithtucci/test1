@@ -1,0 +1,38 @@
+"#win": {},
+"#viewData": {
+	//height : Ti.UI.FILL
+	layout: "absolute"
+},
+"#tableview": {
+	scrollable: false,
+	bottom: 80,
+	height: Ti.UI.FILL,
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
+},
+"#tableviewrowNotifications": {
+	title: "Notifications"
+},
+"#tableviewrowSupport": {
+	title: "Support",
+	hasChild: true
+},
+"#switchNotifications": {
+	right: 10
+},
+"#labelVersion": {
+	bottom: 10
+},
+"#imageviewLogo": {
+	image: "images/navtitle-black.png"
+},
+"#viewLogo": {
+	layout: "vertical",
+	bottom: 40,
+	height: Ti.UI.SIZE
+},
+"#labelPoweredBy": {
+	text: "Powered by",
+	font: {
+		fontSize: 16
+	}
+}

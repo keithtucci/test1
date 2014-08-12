@@ -1,0 +1,8 @@
+"#tab" : {
+	title : "Analytics",
+	icon : "img/analytics.png", 
+	activeIcon : "img/analytics-fill.png"
+},
+"#win" : {
+	title : "Analytics"
+}

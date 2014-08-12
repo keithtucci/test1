@@ -1,0 +1,17 @@
+<Alloy>
+	<TableViewRow id="row" >
+		<View id="viewRowMain" class="viewRowMain"  >
+			<View id="viewLabels" onClick="doOrderDetails">
+				<Label id="labelDtEstComplete" class="labelRowTitle" />
+				<Label id="labelOrderStatusName" class="labelRowData" />
+				<Label id="labelName" class="labelRowData" />
+				<Label id="labelDtCreated" class="labelRowData" />
+				<Label id="labelOrderText" class="labelRowData" />
+			</View>
+			<View id="viewAction" class="viewAction" onClick="doUpdateOrderStatus">
+				<Button id="buttonAction" class="buttonAction" />
+			</View>
+		</View>
+		<View id="viewHLineBottom" class="viewHLine" />
+	</TableViewRow>
+</Alloy>

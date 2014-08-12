@@ -1,0 +1,7 @@
+"#row" : {
+	//layout : 'vertical'
+	height : 60
+},
+".labelName":{
+	left: 15,
+}

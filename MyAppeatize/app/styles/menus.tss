@@ -1,0 +1,23 @@
+"#win": {
+	//title: "Menu"
+	tabBarHidden: true
+},
+"#viewData": {
+	layout: "horizontal"
+},
+".buttonMove": {
+	right: 15
+},
+".buttonEdit": {
+	right: 15
+},
+
+".buttonAdd": {
+	left: 15
+},
+"#tableviewMenuList": {
+	top: "-36"
+},
+"#labelNoDataMessage" : {
+	text : "Contact Appeatize to learn more about our Menus service."
+}

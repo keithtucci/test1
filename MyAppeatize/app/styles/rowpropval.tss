@@ -1,0 +1,19 @@
+"#row" : {
+	height : 60,
+	backgroundColor : "transparent"
+},
+"#viewRowMainContainer" : {
+	height : Ti.UI.FILL
+},
+"#labelProp" : {
+	left : 60,
+	height : Ti.UI.SIZE
+}
+"#viewLeftImage" : {
+	left : 0,
+	height : Ti.UI.FILL,
+	width : 60
+},
+"#imageviewRightArrow" : {
+	visible : false
+}

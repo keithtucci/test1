@@ -1,0 +1,198 @@
+"#tab": {
+	title: "Home",
+	icon: "img/house-2.png",
+	activeIcon: "img/house-2-fill.png"
+},
+"#win": {
+	navBarHidden: true,
+	titleImage: '/images/navtitle-white.png'
+},
+"#viewData": {
+	layout: "absolute",
+	height: Ti.UI.FILL
+},
+"#imageviewBanner": {
+	width: 320,
+	height: 160,
+	backgroundColor: "#ffffff",
+	preventDefaultImage: true,
+	hires : true
+},
+"#viewHeader": {
+	top: 0,
+	layout: "absolute",
+	height: 160
+},
+"#tableviewInfo": {
+	//top : "-36",
+	top: 160,
+	//scrollable: false,
+	//height: Ti.UI.SIZE,
+	visible: false,
+	separatorStyle: Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+".viewNavBar": {
+	top: 0,
+	left: 0,
+	height: 100,
+	width: Ti.UI.FILL,
+	opacity: "1",
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: {
+			x: '50%',
+			y: '100%'
+		},
+		endPoint: {
+			x: '50%',
+			y: '0%'
+		},
+		colors: [
+			{
+				color: 'transparent'
+			}, {
+				color: '#080808'
+			}
+		]
+	}
+},
+".viewNavBar2": {
+	bottom: 0,
+	left: 0,
+	height: 0,
+	width: Ti.UI.FILL,
+	opacity: "1",
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: {
+			x: '50%',
+			y: '0%'
+		},
+		endPoint: {
+			x: '50%',
+			y: '100%'
+		},
+		colors: [
+			{
+				color: 'transparent'
+			}, {
+				color: '#080808'
+			}
+		]
+	}
+},
+"#labelLocationName": {
+	//top: 10,
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	},
+	top: 31
+},
+".labelOverlay": {
+	left: 45,
+	right: 45,
+	width: Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#ffffff"
+},
+"#buttonAccount": {
+	width: 40,
+	right: 2,
+	top: 31,
+	tintColor: "#FFFFFF"
+},
+"#viewActionBar": {
+	height: 50,
+	bottom: 0
+},
+"#viewHLineBottom": {
+	top: 0,
+	backgroundColor: "#FFFFFF"
+},
+"#viewButtonContainer": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".viewActionButton": {
+	width: "25%",
+	height: Ti.UI.FILL,
+	layout: "absolute"
+},
+"#buttonMenuAction": {
+	//title: "  Menu",
+	image: "img/list-2.png"
+},
+"#buttonSettingsAction": {
+	//title: "  Settings",
+	image: "img/setting-gear.png"
+},
+"#buttonAccountAction": {
+	//title: "  Account",
+	image: "img/account.png"
+},
+"#buttonCompanyAction": {
+	//title: "  Company",
+	image: "img/flag-1.png"
+},
+"#buttonCampaignAction": {
+	image: "img/megaphone-1.png"
+}
+// "#viewDashContainer" : {
+// layout : "vertical",
+// top: 205,
+// width : Ti.UI.FILL,
+// height : Ti.UI.FILL
+// },
+".viewHRow": {
+	width: Ti.UI.FILL,
+	height: "50%",
+	layout: "horizontal"
+},
+".viewPod": {
+	width: "50%",
+	height: Ti.UI.FILL,
+	backgroundColor: "#FFFFFF",
+	layout: "absolute"
+},
+".viewVLine": {
+	right: 0,
+	backgroundColor: "#FFFFFF"
+},
+"#viewHLine1": {
+	bottom: 0
+},
+"#viewHLine2": {
+	bottom: 0
+},
+".buttonHomeAction": {
+	tintColor: "#FFFFFF",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#imageviewNavBarTitle": {
+	top: 31,
+	image: "images/navtitle-white.png"
+},
+"#viewHLineActionBarTitle": {
+	top: 0
+},
+"#viewActionBarTitle": {
+	height: 34,
+	bottom : 50
+},
+"#labelActionBarTitle": {
+	font: {
+		fontSize: 18
+	},
+	color: "#FFFFFF"
+},
+".viewActionBarFill": {
+	backgroundColor: "#000000",
+	opacity: ".6",
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+

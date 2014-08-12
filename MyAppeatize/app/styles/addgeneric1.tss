@@ -1,0 +1,44 @@
+"#viewData" : {
+	layout : "vertical"
+},
+"#scrollview" : {
+	layout : "vertical"
+},
+"#labelDescr" : {
+	text : "Description",
+	top : 20
+},
+"#labelName" : {
+	text : "Name"
+},
+"#labelPrice" : {
+	text : "Price"
+},
+"#labelPriceText" : {
+	text : "Price Text"
+},
+".dialogDelete" : {
+	title: 'Are you sure you wish to delete this item...?',
+	destructive: 0,
+	options: ["Yes, delete item", "No, do nothing"]
+},
+"#tableviewrowDescr" : {
+	height : 120
+},
+"#textareaDescr" : {
+	top : 10,
+	bottom : 10, 
+	suppressReturn:false
+},
+"#tableview1" : {
+	top : "-36",
+	height : 216,
+	scrollable : false,
+},
+"#tableview2" : {
+	//height : 156,
+	height : 0,
+	scrollable : false
+	
+}
+

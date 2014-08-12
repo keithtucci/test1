@@ -1,0 +1,91 @@
+"#row": {
+	height: 180,
+	selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE,
+	layout: "absolute"
+},
+".viewRowMain": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "absolute",
+	top: 0,
+	left: 0,
+	bottom: 0,
+	right: 0
+},
+"#labelProp": {
+	left: 95,
+	//color : "#AAAAAA",
+	//textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	//width: Ti.UI.FILL,
+	//height: 0,
+	font: {
+		fontSize: 20
+	}
+},
+"#labelVal": {
+	//left: 25,
+	font: {
+		fontSize: 60,
+		fontWeight: "bold"
+	}
+},
+"#viewAction": {
+	layout: "absolute",
+	top: 0,
+	left: 0,
+	width: 85,
+	height: Ti.UI.FILL
+}
+".viewHLine": {
+	//height : 1,
+	bottom: 0
+},
+".viewHRow": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".viewPod": {
+	width: "50%",
+	height: Ti.UI.FILL,
+	backgroundColor: "#FFFFFF",
+	layout: "absolute"
+},
+"#viewVLine1": {
+	right: 0
+},
+".labelHomeVal": {
+	//left: 20,
+	font: {
+		fontSize: 80,
+		//fontWeight: "bold"
+	},
+	//color : "#555555"
+},
+".labelHomeProp": {
+	color: "#AAAAAA",
+	top: 0,
+	font: {
+		fontSize: 16
+	}
+},
+"#viewRowHeader": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 40,
+	layout: "absolute",
+	backgroundColor : "#F7F7F7"
+},
+"#viewHRow1": {
+	top: 40
+},
+"#labelRowHeader": {
+	font: {
+		fontSize: 16
+	}
+},
+".viewPodContainer": {
+	layout: "vertical",
+	height : Ti.UI.SIZE
+}
+

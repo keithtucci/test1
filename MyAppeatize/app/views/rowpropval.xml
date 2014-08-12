@@ -1,0 +1,11 @@
+<Alloy>
+	<TableViewRow id="row" >
+		<View id="viewRowMainContainer" class="viewRowMainContainer">
+			<View id="viewLeftImage" class="viewLeftImage">
+				<ImageView id="imageviewIcon"  />
+			</View>
+			<Label id="labelProp" class="labelSection" />
+			<ImageView id="imageviewRightArrow" class="imageviewRightArrow" />
+		</View>
+	</TableViewRow>
+</Alloy>

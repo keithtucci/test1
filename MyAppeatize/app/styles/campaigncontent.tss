@@ -1,0 +1,45 @@
+"#win": {
+	layout: "absolute",
+	backgroundColor : "#FFFFFF"
+},
+"#viewData": {
+	layout: "absolute",
+	visible: true
+},
+"#textareaHeader": {
+	maxLength: 100,
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	suppressReturn: true,	
+},
+"#textareaMessage": {
+	maxLength: 500,
+},
+".textareaGeneric1": {
+	top: 10,
+	left: 10,
+	bottom: 10,
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	color: "#177EFB",
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_SENTENCES,
+	returnKeyType: Titanium.UI.RETURNKEY_DEFAULT,
+	suppressReturn: false,
+	autocorrect: true
+},
+"#tableview": {
+	height: Ti.UI.FILL,
+	scrollable: false,
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+".viewLine": {
+	bottom: 0,
+	left: 15
+},
+"#tableviewrowHeader": {
+	height: 95,
+},
+"#tableviewrowMessage": {
+	height: 200,
+}
+
+
